@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="theme_margin_small">5dp</dimen>
+    <dimen name="theme_margin">10dp</dimen>
+    <dimen name="theme_margin_large">20dp</dimen>
+
+    <dimen name="theme_list_divider_height">1dp</dimen>
+    
+</resources>

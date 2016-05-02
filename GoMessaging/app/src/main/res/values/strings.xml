@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GoMessaging</string>
+
+    <string name="messaging_search_label">MessageSearch</string>
+
+    <string name="enter_recipients_hint">Enter Recipients</string>
+    <string name="enter_message_hint">Enter Message</string>
+    <string name="search_hint">Enter the search keyword</string>
+
+    <string name="new_message">New Message</string>
+
+    <string name="search_all">Search All</string>
+    <string name="compose_new">Compose new</string>
+
+    <string name="err_no_recepient">Please enter the recepient</string>
+    <string name="err_no_message">Please enter the message</string>
+    <string name="sms_sent">Sms sent</string>
+    <string name="sms_failed">SMS failed %s, please try again.</string>
+
+    <string name="placeholder_messages">No messages yet.</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#3F51B5</color>
+    <color name="colorAccent">#3F51B5</color>
+
+    <color name="theme_edit_text">#000000</color>
+    <color name="theme_edit_hint">#00ABEC</color>
+    <color name="theme_list_divider">#AAA</color>
+    <color name="chat_message_background_incoming">#CCCCCC</color>
+    <color name="chat_message_background_outcoming">#33CCFF</color>
+</resources>

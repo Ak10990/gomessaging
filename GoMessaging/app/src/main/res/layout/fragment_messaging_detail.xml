@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/message_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/frame_enter"
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        app:layoutManager="LinearLayoutManager"
+        tools:listitem="@layout/item_message_detail" />
+
+    <EditText
+        android:id="@+id/et_enter_recipients"
+        style="@style/Style_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_recipients_hint"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:maxLength="15" />
+
+    <RelativeLayout
+        android:id="@+id/frame_enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/theme_margin"
+        android:layout_marginRight="@dimen/theme_margin">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/send_fab_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@android:drawable/ic_menu_send"
+            app:fabSize="mini" />
+
+        <EditText
+            android:id="@+id/et_enter_messages"
+            style="@style/Style_EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_toLeftOf="@id/send_fab_btn"
+            android:layout_toStartOf="@id/send_fab_btn"
+            android:hint="@string/enter_message_hint"
+            android:inputType="text" />
+
+    </RelativeLayout>
+</RelativeLayout>

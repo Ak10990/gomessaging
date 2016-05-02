@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/you_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/theme_margin"
+        android:background="@drawable/you_bubble"
+        android:paddingBottom="@dimen/theme_margin"
+        android:paddingEnd="@dimen/theme_margin"
+        android:paddingLeft="@dimen/theme_margin_large"
+        android:paddingRight="@dimen/theme_margin"
+        android:paddingStart="@dimen/theme_margin_large"
+        android:paddingTop="@dimen/theme_margin"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/me_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="@dimen/theme_margin"
+        android:background="@drawable/me_bubble"
+        android:paddingBottom="@dimen/theme_margin"
+        android:paddingEnd="@dimen/theme_margin_large"
+        android:paddingLeft="@dimen/theme_margin"
+        android:paddingRight="@dimen/theme_margin_large"
+        android:paddingStart="@dimen/theme_margin"
+        android:paddingTop="@dimen/theme_margin"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textSize="20sp" />
+</FrameLayout>
